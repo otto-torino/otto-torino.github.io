@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/author/abidibo/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-10-16T12:55:27+00:00</updated>
+  <updated>2019-10-16T13:16:31+00:00</updated>
   <id>/author/abidibo/feed.xml</id>
 
   
@@ -45,7 +45,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/posts/django-baton.jpg&quot; alt=&quot;django-baton index page&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Here comes &lt;a href=&quot;https://www.github.com/otto-torino/django-baton&quot;&gt;django-baton&lt;/a&gt;, a fully responsive django admin theme, based on &lt;strong&gt;Bootstrap 4&lt;/strong&gt; and &lt;strong&gt;FontAwesome 5&lt;/strong&gt; (free edition). Lçet’s take a look at its main features:&lt;/p&gt;
+&lt;p&gt;Here comes &lt;a href=&quot;https://www.github.com/otto-torino/django-baton&quot;&gt;django-baton&lt;/a&gt;, a fully responsive django admin theme, based on &lt;strong&gt;Bootstrap 4&lt;/strong&gt; and &lt;strong&gt;FontAwesome 5&lt;/strong&gt; (free edition). Let’s take a look at its main features:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;fully responsive&lt;/li&gt;
@@ -53,7 +53,7 @@
   &lt;li&gt;form tabs out of the box (just set some css classes)&lt;/li&gt;
   &lt;li&gt;custom text input filters&lt;/li&gt;
   &lt;li&gt;lazy loading and preview of the uploaded images&lt;/li&gt;
-  &lt;li&gt;index dashboard with google analytics api&lt;/li&gt;
+  &lt;li&gt;index dashboard with google analytics widgets&lt;/li&gt;
   &lt;li&gt;easy customizable recompiling the js app&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -102,7 +102,7 @@ Such philosophy assures a great compatibility among new django releases.&lt;/p&g
       <id>/tazebao</id>
       <content type="html" xml:base="/tazebao">&lt;p&gt;A cool newsletter management web application which focuses on the important things.&lt;/p&gt;
 
-&lt;p&gt;Retain your customers is one of the main goal for your activity, every serious marketing strategy takes into account the problem of customer loyalty. In the era of internet one of the best instruments you may find to keep in touch with your customers, present them your new activities, services and stuff, is to keep a good and selected mailing list, and produce scheduled campaigns which should be at the same time useful and not weraring.&lt;/p&gt;
+&lt;p&gt;Retain your customers is one of the main goal for your activity, every serious marketing strategy takes into account the problem of customer loyalty. In the era of internet one of the best instruments you may find to keep in touch with your customers, present them your new activities, services and stuff, is to keep a good and selected mailing list, and produce scheduled campaigns which should be at the same time useful and not wearing.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Tazebao helps you in doing exactly this. It will give you the instruments to store lists of customers e-mails, group them by any criteria, and produce rich and nice-looking campaigns that can be sent immediately or at any time to the desired groups of customers.&lt;/p&gt;
@@ -162,7 +162,7 @@ Such philosophy assures a great compatibility among new django releases.&lt;/p&g
       <id>/cookierulez</id>
       <content type="html" xml:base="/cookierulez">&lt;p&gt;GDPR, Cookie Policy, let us help you!&lt;/p&gt;
 
-&lt;p&gt;In the last years the EU has approved new data protection rules which affects the great majority of web sites out there. There are many which didn’t applied to this rules yet, many which cannot sustain the effort, or don’t have the necessary tools and skills to manage all the requiremets. Here comes &lt;a href=&quot;https://cookierulez.sqrt64.it&quot;&gt;Cookierulez&lt;/a&gt;, an open source web application which aims to get your life easier when dealing with webn sites cookie policies.&lt;/p&gt;
+&lt;p&gt;In the last years the EU has approved new data protection rules which affects the great majority of web sites out there. There are many which didn’t applied to this rules yet, many which cannot sustain the effort, or don’t have the necessary tools and skills to manage all the requiremets. Here comes &lt;a href=&quot;https://cookierulez.sqrt64.it&quot;&gt;Cookierulez&lt;/a&gt;, an open source web application which aims to get your life easier when dealing with web sites cookie policies.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/posts/cookierulez.png&quot; alt=&quot;Cookierulez Banner&quot; /&gt;&lt;/p&gt;
 
@@ -189,10 +189,14 @@ Such philosophy assures a great compatibility among new django releases.&lt;/p&g
   &lt;li&gt;Include a script and a stylesheet in your website to power on the cookie banner&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;Cookierulez will repeat steps 2 and 3 every X hours, so that the listed cookies will always represent the current situation!&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;h2 id=&quot;third-parties-cookies&quot;&gt;Third parties cookies&lt;/h2&gt;
 
-&lt;p&gt;Cookierulez does a great job blocking third party cookies when the user disables them. Thir party cookies are the ones installed bu other external scripts, embeds or widgets like analytics, youtube, vimeo, sharethis, etc…
-Cookierulez provides a way to block such external resources until the user confirm his consent, you just need to set some attributes on the html elemnts and let Cookierulez do its job.&lt;/p&gt;
+&lt;p&gt;Cookierulez does a great job blocking third party cookies when the user disables them. Third party cookies are the ones installed by other external scripts, embeds or widgets like analytics, youtube, vimeo, sharethis, etc…
+Cookierulez provides a way to block such external resources until the user confirm his consent, you just need to set some attributes on the html elements and let Cookierulez do its job.&lt;/p&gt;
 
 &lt;h2 id=&quot;interested&quot;&gt;Interested?&lt;/h2&gt;
 

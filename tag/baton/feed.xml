@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/baton/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-10-16T12:55:27+00:00</updated>
+  <updated>2019-10-16T13:16:31+00:00</updated>
   <id>/tag/baton/feed.xml</id>
 
   
@@ -45,7 +45,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/posts/django-baton.jpg&quot; alt=&quot;django-baton index page&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Here comes &lt;a href=&quot;https://www.github.com/otto-torino/django-baton&quot;&gt;django-baton&lt;/a&gt;, a fully responsive django admin theme, based on &lt;strong&gt;Bootstrap 4&lt;/strong&gt; and &lt;strong&gt;FontAwesome 5&lt;/strong&gt; (free edition). Lçet’s take a look at its main features:&lt;/p&gt;
+&lt;p&gt;Here comes &lt;a href=&quot;https://www.github.com/otto-torino/django-baton&quot;&gt;django-baton&lt;/a&gt;, a fully responsive django admin theme, based on &lt;strong&gt;Bootstrap 4&lt;/strong&gt; and &lt;strong&gt;FontAwesome 5&lt;/strong&gt; (free edition). Let’s take a look at its main features:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;fully responsive&lt;/li&gt;
@@ -53,7 +53,7 @@
   &lt;li&gt;form tabs out of the box (just set some css classes)&lt;/li&gt;
   &lt;li&gt;custom text input filters&lt;/li&gt;
   &lt;li&gt;lazy loading and preview of the uploaded images&lt;/li&gt;
-  &lt;li&gt;index dashboard with google analytics api&lt;/li&gt;
+  &lt;li&gt;index dashboard with google analytics widgets&lt;/li&gt;
   &lt;li&gt;easy customizable recompiling the js app&lt;/li&gt;
 &lt;/ul&gt;
 
