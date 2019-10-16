@@ -4,6 +4,7 @@ tags
 
 # Jekyll build
 /_site/
+site
 .jekyll-metadata
 #Gemfile.lock
 
