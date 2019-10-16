@@ -19,14 +19,14 @@ The django default admin theme has changed over the years, and at the time of th
 
 ![django-baton index page](/assets/images/posts/django-baton.jpg)
 
-Here comes [django-baton](https://www.github.com/otto-torino/django-baton), a fully responsive django admin theme, based on **Bootstrap 4** and **FontAwesome 5** (free edition). Lçet's take a look at its main features:
+Here comes [django-baton](https://www.github.com/otto-torino/django-baton), a fully responsive django admin theme, based on **Bootstrap 4** and **FontAwesome 5** (free edition). Let's take a look at its main features:
 
 - fully responsive
 - custom and flexible sidebar menu (titles, apps, models and free voices supported)
 - form tabs out of the box (just set some css classes)
 - custom text input filters
 - lazy loading and preview of the uploaded images
-- index dashboard with google analytics api
+- index dashboard with google analytics widgets
 - easy customizable recompiling the js app
 
 The philosophy behind django-baton is: **overwrite as few django stuff as possible**.    

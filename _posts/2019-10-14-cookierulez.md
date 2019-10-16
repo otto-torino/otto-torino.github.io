@@ -14,7 +14,7 @@ author: abidibo
 
 GDPR, Cookie Policy, let us help you!
 
-In the last years the EU has approved new data protection rules which affects the great majority of web sites out there. There are many which didn't applied to this rules yet, many which cannot sustain the effort, or don't have the necessary tools and skills to manage all the requiremets. Here comes [Cookierulez](https://cookierulez.sqrt64.it), an open source web application which aims to get your life easier when dealing with webn sites cookie policies.
+In the last years the EU has approved new data protection rules which affects the great majority of web sites out there. There are many which didn't applied to this rules yet, many which cannot sustain the effort, or don't have the necessary tools and skills to manage all the requiremets. Here comes [Cookierulez](https://cookierulez.sqrt64.it), an open source web application which aims to get your life easier when dealing with web sites cookie policies.
 
 ![Cookierulez Banner](/assets/images/posts/cookierulez.png)
 
@@ -37,10 +37,12 @@ It's super easy to use Cookierulez:
 5. Make some manual modifications if you need them
 6. Include a script and a stylesheet in your website to power on the cookie banner
 
+> Cookierulez will repeat steps 2 and 3 every X hours, so that the listed cookies will always represent the current situation!
+
 ## Third parties cookies
 
-Cookierulez does a great job blocking third party cookies when the user disables them. Thir party cookies are the ones installed bu other external scripts, embeds or widgets like analytics, youtube, vimeo, sharethis, etc...
-Cookierulez provides a way to block such external resources until the user confirm his consent, you just need to set some attributes on the html elemnts and let Cookierulez do its job.
+Cookierulez does a great job blocking third party cookies when the user disables them. Third party cookies are the ones installed by other external scripts, embeds or widgets like analytics, youtube, vimeo, sharethis, etc...
+Cookierulez provides a way to block such external resources until the user confirm his consent, you just need to set some attributes on the html elements and let Cookierulez do its job.
 
 ## Interested?
 
