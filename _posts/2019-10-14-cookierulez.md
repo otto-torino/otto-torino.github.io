@@ -4,7 +4,7 @@ current: post
 cover:  assets/images/posts/post3.jpg
 navigation: True
 title: Cookie Policy Made Easy
-date: 2017-07-27 08:00:00
+date: 2019-10-13 08:00:00
 tags: [Web Applications, Cookierulez]
 class: post-template
 subclass: 'post'
@@ -14,7 +14,7 @@ author: abidibo
 
 GDPR, Cookie Policy, let us help you!
 
-In the last years the EU has approved new data protection rules which affects the great majority of web sites out there. There are many which didn't applied to this rules yet, many which cannot sustain the effort, or don't have the necessary tools and skills to manage all the requiremets. Here comes [Cookierulez](https://cookierulez.sqrt64.it), an open source web application which aims to get your life easier when dealing with web sites cookie policies.
+In the last years the EU has approved new data protection rules which affects the great majority of web sites out there. There are many which don't abide by this new rules yet, many which cannot sustain the effort, or don't have the necessary tools and skills to manage all the requirements. **Here comes [Cookierulez](https://cookierulez.sqrt64.it), an open source web application which aims to get your life easier when dealing with web sites cookie policies.**
 
 ![Cookierulez Banner](/assets/images/posts/cookierulez.png)
 
@@ -22,7 +22,7 @@ In the last years the EU has approved new data protection rules which affects th
 
 - multi-user platform: each user can manage his web sites and provide all the information that couldn't be collected automatically
 - cookies are categorized
-- cookies have a description and many other info that shoul be displayed to the user
+- cookies have a description and many other infos that the users have to know
 - dark and light themes out of the box
 - custom consent to different cookies categories
 
@@ -37,7 +37,7 @@ It's super easy to use Cookierulez:
 5. Make some manual modifications if you need them
 6. Include a script and a stylesheet in your website to power on the cookie banner
 
-> Cookierulez will repeat steps 2 and 3 every X hours, so that the listed cookies will always represent the current situation!
+> Cookierulez will repeat steps 2 and 3 every X hours, in order to keep the cookies situation constantly up-to-date
 
 ## Third parties cookies
 
@@ -46,5 +46,5 @@ Cookierulez provides a way to block such external resources until the user confi
 
 ## Interested?
 
-If you want to know more about Cookierulez, or use it to forget about cookies, then just [contact us](mailto:mail@otto.to.it) we'll help you setting up a proper solution.
+If you want to know more about Cookierulez, or use it and forget about the issue, then just [contact us](mailto:mail@otto.to.it): we'll help you setting up the best solution.
 

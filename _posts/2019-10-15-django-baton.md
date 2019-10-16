@@ -13,9 +13,9 @@ author: abidibo
 
 What about a cool, modern and responsive django admin template?
 
-Django is a great framework, it let's you build complex web applications quickly and reliably. All the front-end stuff is up to the developer, while the back-end can be auto-generated registering your apps to the django admin application. That's great, because you can focus on how the application will look like, having most of the boring and repetitive backoffice work done.
+Django is a great framework, it lets you build complex web applications quickly and reliably. All the front-end stuff is up to the developer, while the back-end can be auto-generated registering your apps to the django admin application. That's great, because you can focus on how the application will look like, having most of the boring and repetitive backoffice work done.
 
-The django default admin theme has changed over the years, and at the time of this writing it is almost fully responsive. But we think it's too minimal, it lacks a convenient sidebar menu and some teaks to make large forms more readable.
+The django default admin theme has changed over the years, and at the time of this writing it is almost fully responsive. But we think it's too minimal, it lacks a convenient sidebar menu and some tweaks to make large forms more readable.
 
 ![django-baton index page](/assets/images/posts/django-baton.jpg)
 
@@ -36,4 +36,4 @@ We developed **django-baton** for us, and for you. It's free to use (**MIT Licen
 
 Need help? [Contact us](mailto:mail@otto.to.it).
 
-**We can also create a new brand and custom django-baton version for your project**, add components and functionality, create new widgets or write the entire backend for you if necessary, **we're quite good and fast at doing it.**
+**We can also create a new brand and custom django-baton version for your project**, add components and functionality, create new widgets or write the entire backend for you if necessary, **we're quite good and fast in doing it.**
