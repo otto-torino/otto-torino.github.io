@@ -1,17 +1,13 @@
 ---
 layout: page
 current: about
-title: About
+title: Siamo sempre qui
 navigation: true
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/favicon.jpg'
 class: page-template
 subclass: 'post page'
 ---
 
-Ghost is professional publishing platform designed for modern journalism. This is a demo site of a basic Ghost install to give you a general sense of what a new Ghost site looks like when set up for the first time.
+Abbiamo fondato la OTTO nel 1998 per offrire un servizio completo alle aziende e agli enti che volevano comunicare la loro attività attraverso i nuovi media. Abbiamo messo assieme le nostre esperienze nella comunicazione, scritta e visiva, nell’ergonomia, nello sviluppo informatico e nella ricerca.
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
-
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
-
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+In questi oltre 20 anni abbiamo perfezionato la nostra offerta di servizi digitali progettati su misura attorno alle esigenze e ai desideri dei clienti. Il mercato è cambiato, le tecnologie si sono sviluppate, ma il nostro approccio è rimasto lo stesso: adeguare le possibilità tecniche alle reali esigenze di comunicazione. Il nostro motto è **Siamo sempre qui**: ad un approccio mordi e fuggi preferiamo una collaborazione duratura che permetta ai nostri clienti e a noi di crescere e migliorarci. E quando avete bisogno, basta alzare il telefono...

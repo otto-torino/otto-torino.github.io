@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="http://localhost:4000/tag/tazebao/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2019-10-16T14:26:58+02:00</updated>
+  <id>http://localhost:4000/tag/tazebao/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Otto SRL | </title>
+  
+
+  
+    <subtitle>Multimedia design and full stack development</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">We introduce you… Tazebao</title>
+      <link href="http://localhost:4000/tazebao" rel="alternate" type="text/html" title="We introduce you... Tazebao" />
+      <published>2019-10-16T11:00:00+02:00</published>
+      <updated>2019-10-16T11:00:00+02:00</updated>
+      <id>http://localhost:4000/tazebao</id>
+      <content type="html" xml:base="http://localhost:4000/tazebao">&lt;p&gt;A cool newsletter management web application which focuses on the important things.&lt;/p&gt;
+
+&lt;p&gt;Retain your customers is one of the main goal for your activity, every serious marketing strategy takes into account the problem of customer loyalty. In the era of internet one of the best instruments you may find to keep in touch with your customers, present them your new activities, services and stuff, is to keep a good and selected mailing list, and produce scheduled campaigns which should be at the same time useful and not weraring.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tazebao helps you in doing exactly this. It will give you the instruments to store lists of customers e-mails, group them by any criteria, and produce rich and nice-looking campaigns that can be sent immediately or at any time to the desired groups of customers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.github.com/otto-torino/tazebao&quot;&gt;Tazebao&lt;/a&gt; is a django web application developed and manteined by Otto SRL. It’s free to use (MIT License) and you can find all the needed instructions in the github project page.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Its main features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;REST service to connect your data to any existing website (collect new e-mails, show yor campaigns, etc…)&lt;/li&gt;
+  &lt;li&gt;subscribers organized in lists&lt;/li&gt;
+  &lt;li&gt;multi-user platform, each user can see and manage only his contents&lt;/li&gt;
+  &lt;li&gt;drag and drop functionality provided by &lt;a href=&quot;https://github.com/voidlabs/mosaico&quot;&gt;mosaico&lt;/a&gt;, with some additions (track links and more template variables)&lt;/li&gt;
+  &lt;li&gt;scheduling of dispatches&lt;/li&gt;
+  &lt;li&gt;dispatch report and single e-mail report&lt;/li&gt;
+  &lt;li&gt;statistics about openings, link clicking and bounces management&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Yeah, we know there are many other newsletter services out there, but they become quite expensive when your mailing list grows. Also they offer you a product as is, which fits well for most use cases, but not all. We’ve personally developed this newsletter mangement system, we can help you installing it and modify it to suit your needs. Or we can offer it as a service, running your accounts on our application instances.&lt;/p&gt;
+
+&lt;p&gt;Fell free to &lt;a href=&quot;mailto:mail@otto.to.it&quot;&gt;contact&lt;/a&gt; us if you need more information or some help with Tazebao!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>abidibo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Web Applications" />
+      
+        <category term="Tazebao" />
+      
+
+      
+        <summary type="html">A cool newsletter management web application which focuses on the important things.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

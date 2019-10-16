@@ -10,22 +10,22 @@ baseurl: /
 
 # Website info
 title: Otto SRL
-description: The professional publishing platform
+description: Multimedia design and full stack development
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+logo: assets/images/logo.png
+logo_dark: assets/images/favicon.jpg
+favicon: assets/images/favicon.jpg
 production_url: https://jekyller.github.io/jasper2/
 source_url: https://github.com/jekyller/jasper2/
 CNAME: #add cname for website to be created
 
 # Social info
 navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
+subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+twitter: OttoTorino # replace by your username
+facebook: ottosrltorino # replace by your username
 
 # Disqus
 disqus: False
@@ -81,6 +81,7 @@ exclude:
   - assets/css
   - node_modules
   - vendor
+  - examples
   - .travis.yml
   - Gemfile
   - Gemfile.lock

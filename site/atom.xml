@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>Multimedia design and full stack development</description>
+    <link>
+    http://localhost:4000</link>
+    
+      
+      <item>
+        <title>A new django admin experience</title>
+        
+          <description>&lt;p&gt;What about a cool, modern and responsive django admin template?&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 16 Oct 2019 12:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/django-baton</link>
+        <guid isPermaLink="true">http://localhost:4000/django-baton</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>We introduce you... Tazebao</title>
+        
+          <description>&lt;p&gt;A cool newsletter management web application which focuses on the important things.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 16 Oct 2019 11:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/tazebao</link>
+        <guid isPermaLink="true">http://localhost:4000/tazebao</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Cookie Policy Made Easy</title>
+        
+          <description>&lt;p&gt;GDPR, Cookie Policy, let us help you!&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 10:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/cookierulez</link>
+        <guid isPermaLink="true">http://localhost:4000/cookierulez</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

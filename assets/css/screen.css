@@ -164,7 +164,8 @@ body {
 }
 
 .site-logo {
-    max-height: 45px;
+    max-height: 100px;
+    margin-bottom: 1rem;
 }
 
 .site-description {
