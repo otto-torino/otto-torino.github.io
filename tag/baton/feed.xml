@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/baton/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-10-16T13:16:31+00:00</updated>
+  <updated>2019-10-16T13:55:37+00:00</updated>
   <id>/tag/baton/feed.xml</id>
 
   
@@ -39,9 +39,9 @@
       <id>/django-baton</id>
       <content type="html" xml:base="/django-baton">&lt;p&gt;What about a cool, modern and responsive django admin template?&lt;/p&gt;
 
-&lt;p&gt;Django is a great framework, it let’s you build complex web applications quickly and reliably. All the front-end stuff is up to the developer, while the back-end can be auto-generated registering your apps to the django admin application. That’s great, because you can focus on how the application will look like, having most of the boring and repetitive backoffice work done.&lt;/p&gt;
+&lt;p&gt;Django is a great framework, it lets you build complex web applications quickly and reliably. All the front-end stuff is up to the developer, while the back-end can be auto-generated registering your apps to the django admin application. That’s great, because you can focus on how the application will look like, having most of the boring and repetitive backoffice work done.&lt;/p&gt;
 
-&lt;p&gt;The django default admin theme has changed over the years, and at the time of this writing it is almost fully responsive. But we think it’s too minimal, it lacks a convenient sidebar menu and some teaks to make large forms more readable.&lt;/p&gt;
+&lt;p&gt;The django default admin theme has changed over the years, and at the time of this writing it is almost fully responsive. But we think it’s too minimal, it lacks a convenient sidebar menu and some tweaks to make large forms more readable.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/posts/django-baton.jpg&quot; alt=&quot;django-baton index page&quot; /&gt;&lt;/p&gt;
 
@@ -64,7 +64,7 @@ Such philosophy assures a great compatibility among new django releases.&lt;/p&g
 
 &lt;p&gt;Need help? &lt;a href=&quot;mailto:mail@otto.to.it&quot;&gt;Contact us&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;We can also create a new brand and custom django-baton version for your project&lt;/strong&gt;, add components and functionality, create new widgets or write the entire backend for you if necessary, &lt;strong&gt;we’re quite good and fast at doing it.&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;We can also create a new brand and custom django-baton version for your project&lt;/strong&gt;, add components and functionality, create new widgets or write the entire backend for you if necessary, &lt;strong&gt;we’re quite good and fast in doing it.&lt;/strong&gt;&lt;/p&gt;</content>
 
       
       

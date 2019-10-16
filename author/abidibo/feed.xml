@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/author/abidibo/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-10-16T13:16:31+00:00</updated>
+  <updated>2019-10-16T13:55:37+00:00</updated>
   <id>/author/abidibo/feed.xml</id>
 
   
@@ -39,9 +39,9 @@
       <id>/django-baton</id>
       <content type="html" xml:base="/django-baton">&lt;p&gt;What about a cool, modern and responsive django admin template?&lt;/p&gt;
 
-&lt;p&gt;Django is a great framework, it let’s you build complex web applications quickly and reliably. All the front-end stuff is up to the developer, while the back-end can be auto-generated registering your apps to the django admin application. That’s great, because you can focus on how the application will look like, having most of the boring and repetitive backoffice work done.&lt;/p&gt;
+&lt;p&gt;Django is a great framework, it lets you build complex web applications quickly and reliably. All the front-end stuff is up to the developer, while the back-end can be auto-generated registering your apps to the django admin application. That’s great, because you can focus on how the application will look like, having most of the boring and repetitive backoffice work done.&lt;/p&gt;
 
-&lt;p&gt;The django default admin theme has changed over the years, and at the time of this writing it is almost fully responsive. But we think it’s too minimal, it lacks a convenient sidebar menu and some teaks to make large forms more readable.&lt;/p&gt;
+&lt;p&gt;The django default admin theme has changed over the years, and at the time of this writing it is almost fully responsive. But we think it’s too minimal, it lacks a convenient sidebar menu and some tweaks to make large forms more readable.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/posts/django-baton.jpg&quot; alt=&quot;django-baton index page&quot; /&gt;&lt;/p&gt;
 
@@ -64,7 +64,7 @@ Such philosophy assures a great compatibility among new django releases.&lt;/p&g
 
 &lt;p&gt;Need help? &lt;a href=&quot;mailto:mail@otto.to.it&quot;&gt;Contact us&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;We can also create a new brand and custom django-baton version for your project&lt;/strong&gt;, add components and functionality, create new widgets or write the entire backend for you if necessary, &lt;strong&gt;we’re quite good and fast at doing it.&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;We can also create a new brand and custom django-baton version for your project&lt;/strong&gt;, add components and functionality, create new widgets or write the entire backend for you if necessary, &lt;strong&gt;we’re quite good and fast in doing it.&lt;/strong&gt;&lt;/p&gt;</content>
 
       
       
@@ -105,7 +105,7 @@ Such philosophy assures a great compatibility among new django releases.&lt;/p&g
 &lt;p&gt;Retain your customers is one of the main goal for your activity, every serious marketing strategy takes into account the problem of customer loyalty. In the era of internet one of the best instruments you may find to keep in touch with your customers, present them your new activities, services and stuff, is to keep a good and selected mailing list, and produce scheduled campaigns which should be at the same time useful and not wearing.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Tazebao helps you in doing exactly this. It will give you the instruments to store lists of customers e-mails, group them by any criteria, and produce rich and nice-looking campaigns that can be sent immediately or at any time to the desired groups of customers.&lt;/p&gt;
+  &lt;p&gt;Tazebao helps you in doing exactly this. It will give you the instruments to store lists of customers e-mails, group them by any criteria, and produce rich and nice-looking campaigns that can be scheduled or sent immediately to the desired groups of recipients.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.github.com/otto-torino/tazebao&quot;&gt;Tazebao&lt;/a&gt; is a django web application developed and manteined by Otto SRL. It’s free to use (MIT License) and you can find all the needed instructions in the github project page.&lt;/p&gt;
@@ -113,18 +113,18 @@ Such philosophy assures a great compatibility among new django releases.&lt;/p&g
 &lt;p&gt;&lt;strong&gt;Its main features:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;REST service to connect your data to any existing website (collect new e-mails, show yor campaigns, etc…)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;REST service&lt;/strong&gt; to connect your data to any existing website (collect new e-mails, show yor campaigns, etc…)&lt;/li&gt;
   &lt;li&gt;subscribers organized in lists&lt;/li&gt;
-  &lt;li&gt;multi-user platform, each user can see and manage only his contents&lt;/li&gt;
-  &lt;li&gt;drag and drop functionality provided by &lt;a href=&quot;https://github.com/voidlabs/mosaico&quot;&gt;mosaico&lt;/a&gt;, with some additions (track links and more template variables)&lt;/li&gt;
-  &lt;li&gt;scheduling of dispatches&lt;/li&gt;
-  &lt;li&gt;dispatch report and single e-mail report&lt;/li&gt;
-  &lt;li&gt;statistics about openings, link clicking and bounces management&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;multi-user platform&lt;/strong&gt;, each user can see and manage only his contents&lt;/li&gt;
+  &lt;li&gt;templates with &lt;strong&gt;drag and drop&lt;/strong&gt; functionality provided by &lt;a href=&quot;https://github.com/voidlabs/mosaico&quot;&gt;mosaico&lt;/a&gt;, with some additions (track links and more template variables)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;scheduling&lt;/strong&gt; of dispatches&lt;/li&gt;
+  &lt;li&gt;dispatch &lt;strong&gt;report&lt;/strong&gt; and single e-mail report&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;statistics&lt;/strong&gt; about openings, link clicking and &lt;strong&gt;bounces management&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Yeah, we know there are many other newsletter services out there, but they become quite expensive when your mailing list grows. Also they offer you a product as is, which fits well for most use cases, but not all. We’ve personally developed this newsletter mangement system, we can help you installing it and modify it to suit your needs. Or we can offer it as a service, running your accounts on our application instances.&lt;/p&gt;
+&lt;p&gt;Yeah, we know there are many other newsletter services out there, but they become quite expensive when your mailing list grows. Also they offer you a product as is, which fits well for most use cases, but not all. We’ve personally developed this newsletter mangement system, &lt;strong&gt;we can help you installing it and modify it to suit your needs. Or we can offer it as a service, running your accounts on our application instances.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Fell free to &lt;a href=&quot;mailto:mail@otto.to.it&quot;&gt;contact&lt;/a&gt; us if you need more information or some help with Tazebao!&lt;/p&gt;</content>
+&lt;p&gt;Feel free to &lt;a href=&quot;mailto:mail@otto.to.it&quot;&gt;contact&lt;/a&gt; us if you need more information or some help with Tazebao!&lt;/p&gt;</content>
 
       
       
@@ -157,12 +157,12 @@ Such philosophy assures a great compatibility among new django releases.&lt;/p&g
     <entry>
       <title type="html">Cookie Policy Made Easy</title>
       <link href="/cookierulez" rel="alternate" type="text/html" title="Cookie Policy Made Easy" />
-      <published>2017-07-27T08:00:00+00:00</published>
-      <updated>2017-07-27T08:00:00+00:00</updated>
+      <published>2019-10-13T08:00:00+00:00</published>
+      <updated>2019-10-13T08:00:00+00:00</updated>
       <id>/cookierulez</id>
       <content type="html" xml:base="/cookierulez">&lt;p&gt;GDPR, Cookie Policy, let us help you!&lt;/p&gt;
 
-&lt;p&gt;In the last years the EU has approved new data protection rules which affects the great majority of web sites out there. There are many which didn’t applied to this rules yet, many which cannot sustain the effort, or don’t have the necessary tools and skills to manage all the requiremets. Here comes &lt;a href=&quot;https://cookierulez.sqrt64.it&quot;&gt;Cookierulez&lt;/a&gt;, an open source web application which aims to get your life easier when dealing with web sites cookie policies.&lt;/p&gt;
+&lt;p&gt;In the last years the EU has approved new data protection rules which affects the great majority of web sites out there. There are many which don’t abide by this new rules yet, many which cannot sustain the effort, or don’t have the necessary tools and skills to manage all the requirements. &lt;strong&gt;Here comes &lt;a href=&quot;https://cookierulez.sqrt64.it&quot;&gt;Cookierulez&lt;/a&gt;, an open source web application which aims to get your life easier when dealing with web sites cookie policies.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/posts/cookierulez.png&quot; alt=&quot;Cookierulez Banner&quot; /&gt;&lt;/p&gt;
 
@@ -171,7 +171,7 @@ Such philosophy assures a great compatibility among new django releases.&lt;/p&g
 &lt;ul&gt;
   &lt;li&gt;multi-user platform: each user can manage his web sites and provide all the information that couldn’t be collected automatically&lt;/li&gt;
   &lt;li&gt;cookies are categorized&lt;/li&gt;
-  &lt;li&gt;cookies have a description and many other info that shoul be displayed to the user&lt;/li&gt;
+  &lt;li&gt;cookies have a description and many other infos that the users have to know&lt;/li&gt;
   &lt;li&gt;dark and light themes out of the box&lt;/li&gt;
   &lt;li&gt;custom consent to different cookies categories&lt;/li&gt;
 &lt;/ul&gt;
@@ -190,7 +190,7 @@ Such philosophy assures a great compatibility among new django releases.&lt;/p&g
 &lt;/ol&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Cookierulez will repeat steps 2 and 3 every X hours, so that the listed cookies will always represent the current situation!&lt;/p&gt;
+  &lt;p&gt;Cookierulez will repeat steps 2 and 3 every X hours, in order to keep the cookies situation constantly up-to-date&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;third-parties-cookies&quot;&gt;Third parties cookies&lt;/h2&gt;
@@ -200,7 +200,7 @@ Cookierulez provides a way to block such external resources until the user confi
 
 &lt;h2 id=&quot;interested&quot;&gt;Interested?&lt;/h2&gt;
 
-&lt;p&gt;If you want to know more about Cookierulez, or use it to forget about cookies, then just &lt;a href=&quot;mailto:mail@otto.to.it&quot;&gt;contact us&lt;/a&gt; we’ll help you setting up a proper solution.&lt;/p&gt;</content>
+&lt;p&gt;If you want to know more about Cookierulez, or use it and forget about the issue, then just &lt;a href=&quot;mailto:mail@otto.to.it&quot;&gt;contact us&lt;/a&gt;: we’ll help you setting up the best solution.&lt;/p&gt;</content>
 
       
       

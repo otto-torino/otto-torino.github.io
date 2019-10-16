@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/cookierulez/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-10-16T13:16:31+00:00</updated>
+  <updated>2019-10-16T13:55:37+00:00</updated>
   <id>/tag/cookierulez/feed.xml</id>
 
   
@@ -34,12 +34,12 @@
     <entry>
       <title type="html">Cookie Policy Made Easy</title>
       <link href="/cookierulez" rel="alternate" type="text/html" title="Cookie Policy Made Easy" />
-      <published>2017-07-27T08:00:00+00:00</published>
-      <updated>2017-07-27T08:00:00+00:00</updated>
+      <published>2019-10-13T08:00:00+00:00</published>
+      <updated>2019-10-13T08:00:00+00:00</updated>
       <id>/cookierulez</id>
       <content type="html" xml:base="/cookierulez">&lt;p&gt;GDPR, Cookie Policy, let us help you!&lt;/p&gt;
 
-&lt;p&gt;In the last years the EU has approved new data protection rules which affects the great majority of web sites out there. There are many which didn’t applied to this rules yet, many which cannot sustain the effort, or don’t have the necessary tools and skills to manage all the requiremets. Here comes &lt;a href=&quot;https://cookierulez.sqrt64.it&quot;&gt;Cookierulez&lt;/a&gt;, an open source web application which aims to get your life easier when dealing with web sites cookie policies.&lt;/p&gt;
+&lt;p&gt;In the last years the EU has approved new data protection rules which affects the great majority of web sites out there. There are many which don’t abide by this new rules yet, many which cannot sustain the effort, or don’t have the necessary tools and skills to manage all the requirements. &lt;strong&gt;Here comes &lt;a href=&quot;https://cookierulez.sqrt64.it&quot;&gt;Cookierulez&lt;/a&gt;, an open source web application which aims to get your life easier when dealing with web sites cookie policies.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/posts/cookierulez.png&quot; alt=&quot;Cookierulez Banner&quot; /&gt;&lt;/p&gt;
 
@@ -48,7 +48,7 @@
 &lt;ul&gt;
   &lt;li&gt;multi-user platform: each user can manage his web sites and provide all the information that couldn’t be collected automatically&lt;/li&gt;
   &lt;li&gt;cookies are categorized&lt;/li&gt;
-  &lt;li&gt;cookies have a description and many other info that shoul be displayed to the user&lt;/li&gt;
+  &lt;li&gt;cookies have a description and many other infos that the users have to know&lt;/li&gt;
   &lt;li&gt;dark and light themes out of the box&lt;/li&gt;
   &lt;li&gt;custom consent to different cookies categories&lt;/li&gt;
 &lt;/ul&gt;
@@ -67,7 +67,7 @@
 &lt;/ol&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Cookierulez will repeat steps 2 and 3 every X hours, so that the listed cookies will always represent the current situation!&lt;/p&gt;
+  &lt;p&gt;Cookierulez will repeat steps 2 and 3 every X hours, in order to keep the cookies situation constantly up-to-date&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;third-parties-cookies&quot;&gt;Third parties cookies&lt;/h2&gt;
@@ -77,7 +77,7 @@ Cookierulez provides a way to block such external resources until the user confi
 
 &lt;h2 id=&quot;interested&quot;&gt;Interested?&lt;/h2&gt;
 
-&lt;p&gt;If you want to know more about Cookierulez, or use it to forget about cookies, then just &lt;a href=&quot;mailto:mail@otto.to.it&quot;&gt;contact us&lt;/a&gt; we’ll help you setting up a proper solution.&lt;/p&gt;</content>
+&lt;p&gt;If you want to know more about Cookierulez, or use it and forget about the issue, then just &lt;a href=&quot;mailto:mail@otto.to.it&quot;&gt;contact us&lt;/a&gt;: we’ll help you setting up the best solution.&lt;/p&gt;</content>
 
       
       
