@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/web-applications/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-10-17T11:03:24+00:00</updated>
+  <updated>2019-10-17T14:29:06+00:00</updated>
   <id>/tag/web-applications/feed.xml</id>
 
   
@@ -172,17 +172,44 @@ Such philosophy assures a great compatibility among new django releases.&lt;/p&g
 
 &lt;p&gt;&lt;a href=&quot;https://www.github.com/otto-torino/tazebao&quot;&gt;Tazebao&lt;/a&gt; is a django web application developed and manteined by Otto SRL. It’s free to use (MIT License) and you can find all the needed instructions in the github project page.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Its main features:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let’s take a look at its main features.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;REST service&lt;/strong&gt; to connect your data to any existing website (collect new e-mails, show yor campaigns, etc…)&lt;/li&gt;
-  &lt;li&gt;subscribers organized in lists&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;multi-user platform&lt;/strong&gt;, each user can see and manage only his contents&lt;/li&gt;
-  &lt;li&gt;templates with &lt;strong&gt;drag and drop&lt;/strong&gt; functionality provided by &lt;a href=&quot;https://github.com/voidlabs/mosaico&quot;&gt;mosaico&lt;/a&gt;, with some additions (track links and more template variables)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;scheduling&lt;/strong&gt; of dispatches&lt;/li&gt;
-  &lt;li&gt;dispatch &lt;strong&gt;report&lt;/strong&gt; and single e-mail report&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;statistics&lt;/strong&gt; about openings, link clicking and &lt;strong&gt;bounces management&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;rest-web-service&quot;&gt;REST web service&lt;/h2&gt;
+
+&lt;p&gt;Tazebao includes a REST web service in order to connect your data to any existing website (collect new e-mails, show yor campaigns, etc…). This is great because you can design your subscription form as you like, and then consume Tazebao’s API to make it work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/tazebao-rest.png&quot; alt=&quot;Subscription form&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;subscriber-organized-in-lists&quot;&gt;Subscriber organized in lists&lt;/h2&gt;
+
+&lt;p&gt;Manage you lists of subscribers, send targeted campaigns by dividing your customers in group.&lt;/p&gt;
+
+&lt;h2 id=&quot;multi-user-platform&quot;&gt;Multi-user platform&lt;/h2&gt;
+
+&lt;p&gt;Tazebao is a multi-user platform, can manage an indefinite number of clients, each with its credentials. Every user can see and manage only his contents. You can give full access to the platform being sure that no one can interfeer with others’ campaigns.&lt;/p&gt;
+
+&lt;h2 id=&quot;templates-with-dragdrop-functionality&quot;&gt;Templates with drag&amp;amp;drop functionality&lt;/h2&gt;
+
+&lt;p&gt;Tazebao integrates &lt;a href=&quot;https://github.com/voidlabs/mosaico&quot;&gt;Mosaico&lt;/a&gt; as e-mail template engine, in order to keep the editorial task as simple as possible. Drag and drop some blocks, change texts and add images, and you’ll end up with a perfect looking e-mail looking nice on every device. Moreover we added some functionality to the default Mosaico engine in order to add tracking links capabilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/tazebao-mosaico.png&quot; alt=&quot;Subscription form&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;scheduling-of-dispatches&quot;&gt;Scheduling of dispatches&lt;/h2&gt;
+
+&lt;p&gt;If you need to send a campaign that day at that hour you can. Just set your campaign dispatch time and Tazebao will do the rest. Tazebao constantly checks if some campaigns are scheduled, and it will promptly send them at the right time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/tazebao-scheduling.jpg&quot; alt=&quot;Scheduling&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;statistics-and-reports&quot;&gt;Statistics and reports&lt;/h2&gt;
+
+&lt;p&gt;Tazebao provides reports about campaigns and single e-mails dispatches. &lt;br /&gt;
+Something got wrong? Tazebao will tell you what. You can see bounced e-mails and the reason behind the event, giving you the possibility to clean your mailing list.&lt;/p&gt;
+
+&lt;p&gt;Tazebao provides you statistics about opening rates and link clicks, see who clicked which link and when!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/tazebao-stats.png&quot; alt=&quot;Scheduling&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;Yeah, we know there are many other newsletter services out there, but they become quite expensive when your mailing list grows. Also they offer you a product as is, which fits well for most use cases, but not all. We’ve personally developed this newsletter mangement system, &lt;strong&gt;we can help you installing it and modify it to suit your needs. Or we can offer it as a service, running your accounts on our application instances.&lt;/strong&gt;&lt;/p&gt;
 

@@ -192,17 +192,44 @@ into the {body} of the default.hbs template -->
 
 <p><a href="https://www.github.com/otto-torino/tazebao">Tazebao</a> is a django web application developed and manteined by Otto SRL. It’s free to use (MIT License) and you can find all the needed instructions in the github project page.</p>
 
-<p><strong>Its main features:</strong></p>
+<p>Let’s take a look at its main features.</p>
 
-<ul>
-  <li><strong>REST service</strong> to connect your data to any existing website (collect new e-mails, show yor campaigns, etc…)</li>
-  <li>subscribers organized in lists</li>
-  <li><strong>multi-user platform</strong>, each user can see and manage only his contents</li>
-  <li>templates with <strong>drag and drop</strong> functionality provided by <a href="https://github.com/voidlabs/mosaico">mosaico</a>, with some additions (track links and more template variables)</li>
-  <li><strong>scheduling</strong> of dispatches</li>
-  <li>dispatch <strong>report</strong> and single e-mail report</li>
-  <li><strong>statistics</strong> about openings, link clicking and <strong>bounces management</strong></li>
-</ul>
+<h2 id="rest-web-service">REST web service</h2>
+
+<p>Tazebao includes a REST web service in order to connect your data to any existing website (collect new e-mails, show yor campaigns, etc…). This is great because you can design your subscription form as you like, and then consume Tazebao’s API to make it work.</p>
+
+<p><img src="/assets/images/posts/tazebao-rest.png" alt="Subscription form" /></p>
+
+<h2 id="subscriber-organized-in-lists">Subscriber organized in lists</h2>
+
+<p>Manage you lists of subscribers, send targeted campaigns by dividing your customers in group.</p>
+
+<h2 id="multi-user-platform">Multi-user platform</h2>
+
+<p>Tazebao is a multi-user platform, can manage an indefinite number of clients, each with its credentials. Every user can see and manage only his contents. You can give full access to the platform being sure that no one can interfeer with others’ campaigns.</p>
+
+<h2 id="templates-with-dragdrop-functionality">Templates with drag&amp;drop functionality</h2>
+
+<p>Tazebao integrates <a href="https://github.com/voidlabs/mosaico">Mosaico</a> as e-mail template engine, in order to keep the editorial task as simple as possible. Drag and drop some blocks, change texts and add images, and you’ll end up with a perfect looking e-mail looking nice on every device. Moreover we added some functionality to the default Mosaico engine in order to add tracking links capabilities.</p>
+
+<p><img src="/assets/images/posts/tazebao-mosaico.png" alt="Subscription form" /></p>
+
+<h2 id="scheduling-of-dispatches">Scheduling of dispatches</h2>
+
+<p>If you need to send a campaign that day at that hour you can. Just set your campaign dispatch time and Tazebao will do the rest. Tazebao constantly checks if some campaigns are scheduled, and it will promptly send them at the right time.</p>
+
+<p><img src="/assets/images/posts/tazebao-scheduling.jpg" alt="Scheduling" /></p>
+
+<h2 id="statistics-and-reports">Statistics and reports</h2>
+
+<p>Tazebao provides reports about campaigns and single e-mails dispatches. <br />
+Something got wrong? Tazebao will tell you what. You can see bounced e-mails and the reason behind the event, giving you the possibility to clean your mailing list.</p>
+
+<p>Tazebao provides you statistics about opening rates and link clicks, see who clicked which link and when!</p>
+
+<p><img src="/assets/images/posts/tazebao-stats.png" alt="Scheduling" /></p>
+
+<h2 id="conclusion">Conclusion</h2>
 
 <p>Yeah, we know there are many other newsletter services out there, but they become quite expensive when your mailing list grows. Also they offer you a product as is, which fits well for most use cases, but not all. We’ve personally developed this newsletter mangement system, <strong>we can help you installing it and modify it to suit your needs. Or we can offer it as a service, running your accounts on our application instances.</strong></p>
 
