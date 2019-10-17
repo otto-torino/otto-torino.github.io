@@ -190,17 +190,79 @@ into the {body} of the default.hbs template -->
 
 <p><img src="/assets/images/posts/django-baton.jpg" alt="django-baton index page" /></p>
 
-<p>Here comes <a href="https://www.github.com/otto-torino/django-baton">django-baton</a>, a fully responsive django admin theme, based on <strong>Bootstrap 4</strong> and <strong>FontAwesome 5</strong> (free edition). Let’s take a look at its main features:</p>
+<p>Here comes <a href="https://www.github.com/otto-torino/django-baton">django-baton</a>, a fully responsive django admin theme, based on <strong>Bootstrap 4</strong> and <strong>FontAwesome 5</strong> (free edition). Let’s take a look at its main features.</p>
 
-<ul>
-  <li>fully responsive</li>
-  <li>custom and flexible sidebar menu (titles, apps, models and free voices supported)</li>
-  <li>form tabs out of the box (just set some css classes)</li>
-  <li>custom text input filters</li>
-  <li>lazy loading and preview of the uploaded images</li>
-  <li>index dashboard with google analytics widgets</li>
-  <li>easy customizable recompiling the js app</li>
-</ul>
+<h2 id="fully-responsive">Fully responsive</h2>
+
+<p>You mainly manage your app contents using a laptop with a full hd screen, but it happens to correct some typos, or fix something wrong your customer did while you’re enjoying a beer before dinner. <strong>Baton looks great also at mobile resolutions, and it’ll be easy to use with portable devices.</strong></p>
+<p style="display: flex; flex-direction: row; justify-content: center; align-items: center;flex-wrap: wrap;">
+  <img src="/assets/images/posts/django-baton-home-mobile.png" alt="home page" />
+  <img src="/assets/images/posts/django-baton-menu-mobile.png" alt="menu page" />
+</p>
+
+<h2 id="custom-and-flexible-sidebar-menu">Custom and flexible sidebar menu</h2>
+
+<p>Baton brings to you a nice sidebar menu always visible that lets you surf between different admin section in one click.
+It supports different kinds of voices: titles, apps, models and free.</p>
+
+<p><strong>You can organize menu voices under titles to highlight interconnected modules. You can use models voices to avoid the repetition when an app only has one model, you can define free voices where you set the destination url.</strong></p>
+
+<p>Flexible, and customizable!</p>
+
+<h2 id="form-tabs-out-of-the-box">Form tabs out of the box</h2>
+
+<p>How do you feel when your model form becomes huge, with many fields and too many inlines? What if your customer wants to move a “normal” field between inlines? I felt bad… until I wrote Baton, of course.</p>
+
+<p>Baton lets you define form tabs with ease, just adding some css classes to the fieldsets you already define in the django model admin class. A tab can contain only “normal” fields, inlines or both. <strong>Baton tabs are really powerful and the result is an elegant and readable form.</strong></p>
+
+<p><img src="/assets/images/posts/django-baton-tabs.png" alt="django-baton index page" /></p>
+
+<h2 id="custom-text-input-filters">Custom text input filters</h2>
+
+<p>Baton provides a filter class you can use to create text filters. This is a must have when you need to search in many text fields with a certain precision (and so the <code class="highlighter-rouge">search_fields</code> functionality can’t do the job).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">baton.admin</span> <span class="kn">import</span> <span class="n">InputFilter</span>
+
+<span class="k">class</span> <span class="nc">CityFilter</span><span class="p">(</span><span class="n">InputFilter</span><span class="p">):</span>
+    <span class="n">parameter_name</span> <span class="o">=</span> <span class="s">'city'</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="s">'City'</span>
+
+    <span class="k">def</span> <span class="nf">queryset</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">queryset</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">value</span><span class="p">()</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="n">search_term</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">value</span><span class="p">()</span>
+            <span class="k">return</span> <span class="n">queryset</span><span class="o">.</span><span class="nb">filter</span><span class="p">(</span>
+                <span class="n">city__icontains</span><span class="o">=</span><span class="n">search_term</span>
+            <span class="p">)</span>
+
+
+<span class="nd">@admin.register</span><span class="p">(</span><span class="n">Member</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">MemberAdmin</span><span class="p">(</span><span class="n">admin</span><span class="o">.</span><span class="n">ModelAdmin</span><span class="p">):</span>
+    <span class="n">list_display</span> <span class="o">=</span> <span class="p">(</span><span class="s">'id'</span><span class="p">,</span> <span class="s">'lastname'</span><span class="p">,</span> <span class="s">'firstname'</span><span class="p">,</span> <span class="s">'email'</span><span class="p">,</span> <span class="s">'city'</span><span class="p">,</span> <span class="p">)</span>
+    <span class="n">list_filter</span> <span class="o">=</span> <span class="p">(</span><span class="n">CityFilter</span><span class="p">,</span> <span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="lazy-loading-and-preview-of-uploaded-images">Lazy loading and preview of uploaded images</h2>
+
+<p>The django admin application doesn’t offer an image preview of the uploaded files. You can see them opening the given link in a new tab, but often the customers ask for a preview feature, an inline preview of the uploaded file. <strong>Baton will (optionally) show all the uploaded images inline, lazy loading them in order to avoid blocking the page rendering.</strong></p>
+
+<p><img src="/assets/images/posts/django-baton-img-preview.png" alt="django-baton index page" /></p>
+
+<h2 id="index-dashboard-with-google-analytics-widgets">Index dashboard with google analytics widgets</h2>
+
+<p>Let’s admit it: the default admin index page it’s quite… unsightly.
+In many cases you can override the index template displaying some sort of statistics in order to mimic a dashboard. Sometimes you simply don’t have meaningful statistics to show, or any other content to add, but you have google analytics collecting stats for you!</p>
+
+<p><strong>With Baton is super easy to get an analytics dashboard displaying many widgets</strong> (powered with google charts) which give you a brief idea of how your visits are going on. Baton speaks with the google analytics API to do so, and you just need the create the necessary credentials.</p>
+
+<p><img src="/assets/images/posts/django-baton-analytics.png" alt="django-baton index page" /></p>
+
+<h2 id="easy-customizable-recompiling-the-js-app">Easy customizable recompiling the js app</h2>
+
+<p>We gave Baton a nice looking suit, but there are cases in which you customer asks for more customization also in the admin area: colors, backgrounds, fonts and so on…</p>
+
+<p>With Baton you can do it without overriding any template. Baton is mostly a compiled js app which brings together all its styles. The js app is compiled using webpack and included in the <code class="highlighter-rouge">base_site</code> template. You can just take the app source, change some <strong>sass</strong> variables, recompile it and serve the same static file from an app declared in the <code class="highlighter-rouge">INSTALLED_APPS</code> before baton. Easy!</p>
+
+<h2 id="and-now">And now?</h2>
 
 <p>The philosophy behind django-baton is: <strong>overwrite as few django stuff as possible</strong>.  <br />
 Such philosophy assures a great compatibility among new django releases.</p>
