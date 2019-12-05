@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-10-17T14:29:06+00:00</updated><id>/</id><title type="html">Otto SRL</title><subtitle>Multimedia design and full stack development</subtitle><entry><title type="html">A new django admin experience</title><link href="/django-baton" rel="alternate" type="text/html" title="A new django admin experience" /><published>2019-10-16T10:00:00+00:00</published><updated>2019-10-16T10:00:00+00:00</updated><id>/django-baton</id><content type="html" xml:base="/django-baton">&lt;p&gt;What about a cool, modern and responsive django admin template?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-12-05T09:53:46+00:00</updated><id>/</id><title type="html">Otto SRL</title><subtitle>Multimedia design and full stack development</subtitle><entry><title type="html">Tazebao’s got a new face</title><link href="/tazebao-new-face" rel="alternate" type="text/html" title="Tazebao's got a new face" /><published>2019-12-05T09:00:00+00:00</published><updated>2019-12-05T09:00:00+00:00</updated><id>/tazebao-new-face</id><content type="html" xml:base="/tazebao-new-face">&lt;p&gt;We introduce you the new Tazebao application!&lt;/p&gt;
+
+&lt;p&gt;A shining react &lt;strong&gt;powered app&lt;/strong&gt;, which consumes Tazebao’s REST API in order to assure a great experience to our users.
+The new app has all the features of the previous (and still working) web app, with the addition of some stats like the unsubscription rate.&lt;/p&gt;
+
+&lt;p&gt;The Mosaico template generator is now fully integrated inside the app, and the workflow needed to compose a campaign is straigthforward, because the concept of template is now managed under the scenes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/tazebao-new-mosaico.png&quot; alt=&quot;Choose lists&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After creating the e-mail contents, you can send your campaign: choose your lists and send immediately or schedule a job.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/tazebao-new-send.png&quot; alt=&quot;Choose lists&quot; /&gt;
+&lt;img src=&quot;/assets/images/posts/tazebao-new-send2.png&quot; alt=&quot;Send&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A campaign can be dispatched multiple times and for every dispatch the application provides full statistics: open rate and events, click rate and events, bounces.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/tazebao-new-campaign-view.png&quot; alt=&quot;Send&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We added the &lt;strong&gt;duplicate&lt;/strong&gt; campaign feature, so that you can compose a new e-mail starting from one of the previus&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/tazebao-new-campaign-tools.png&quot; alt=&quot;Send&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The new application was designed in order to provide a simplified workflow for the user, and it succeed in this task, but at the same time retains all the features the old application had.&lt;/p&gt;
+
+&lt;p&gt;Feel free to &lt;a href=&quot;mailto:mail@otto.to.it&quot;&gt;contact&lt;/a&gt; us if you need more information or some help with Tazebao!&lt;/p&gt;</content><author><name>S. Contini</name></author><category term="Web Applications" /><category term="Tazebao" /><summary type="html">We introduce you the new Tazebao application!</summary></entry><entry><title type="html">A new django admin experience</title><link href="/django-baton" rel="alternate" type="text/html" title="A new django admin experience" /><published>2019-10-16T10:00:00+00:00</published><updated>2019-10-16T10:00:00+00:00</updated><id>/django-baton</id><content type="html" xml:base="/django-baton">&lt;p&gt;What about a cool, modern and responsive django admin template?&lt;/p&gt;
 
 &lt;p&gt;Django is a great framework, it lets you build complex web applications quickly and reliably. All the front-end stuff is up to the developer, while the back-end can be auto-generated registering your apps to the django admin application. That’s great, because you can focus on how the application will look like, having most of the boring and repetitive backoffice work done.&lt;/p&gt;
 
