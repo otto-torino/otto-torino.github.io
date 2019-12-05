@@ -25,10 +25,15 @@ After creating the e-mail contents, you can send your campaign: choose your list
 ![Choose lists](/assets/images/posts/tazebao-new-send.png)
 ![Send](/assets/images/posts/tazebao-new-send2.png)
 
-We added the **duplicate** campaign feature, so that you can compose a new e-mail startgin from one of the previus
+A campaign can be dispatched multiple times and for every dispatch the application provides full statistics: open rate and events, click rate and events, bounces.
+
+![Send](/assets/images/posts/tazebao-new-campaign-view.png)
+
+We added the **duplicate** campaign feature, so that you can compose a new e-mail starting from one of the previus
 
 ![Send](/assets/images/posts/tazebao-new-campaign-tools.png)
 
-The new application was designed in order to design a simplified workflow for the user, and it succeed in this task, but at the same time retains all the features the old application had.
+The new application was designed in order to provide a simplified workflow for the user, and it succeed in this task, but at the same time retains all the features the old application had.
+
 
 Feel free to [contact](mailto:mail@otto.to.it) us if you need more information or some help with Tazebao!
