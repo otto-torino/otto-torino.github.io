@@ -31,6 +31,12 @@ This is a full-featured port of Ghost's default theme [Casper](https://github.co
 
 ## Getting Started
 
+### Development
+
+```
+$ bundle exec jekyll serve
+```
+
 ### Deployment
 
 **Important:**  For security reasons, Github does not allow plugins (under `_plugins/`) when
