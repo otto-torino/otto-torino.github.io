@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/author/abidibo/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2021-02-15T14:00:01+00:00</updated>
+  <updated>2021-02-15T14:06:43+00:00</updated>
   <id>/author/abidibo/feed.xml</id>
 
   
@@ -41,7 +41,7 @@
 
 &lt;p&gt;Bootstrap 5 has come at the end of 2020, and Baton immediately adopted it in its feature branch v2. After testing it also in many production applications for a couple of months, we decided to release a new major version because it turned out to be very very stable.&lt;/p&gt;
 
-&lt;p&gt;With the introduction of bootstrap 5 we also changed the overall graphic style and the primary and secondary colors. Baton v2 follows a minimalistic approach, we got rid of many borders and backgrounds, resulting in a cleaner interface.&lt;/p&gt;
+&lt;p&gt;With the introduction of bootstrap 5 we also changed the overall graphics style and the primary and secondary colors. Baton v2 follows a minimalistic approach, we got rid of many borders and backgrounds, resulting in a cleaner interface.&lt;/p&gt;
 
 &lt;p&gt;We also fixed some bugs, enhanced the developer tools and added some new interesting features.&lt;/p&gt;
 
@@ -98,7 +98,7 @@ all the filters at one and finally click a “filter” button which applies the
 
 &lt;h2 id=&quot;javascript-translations&quot;&gt;Javascript translations&lt;/h2&gt;
 
-&lt;p&gt;In Baton v2 we made it easy to customize all javascript strings, useful in case you ned to provide you locale translations.
+&lt;p&gt;In Baton v2 we made it easy to customize all javascript strings, useful in case you need to provide you locale translations.
 It’s as simple as attaching an object containing your strings to the Baton namespace:&lt;/p&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// these are the default translations, you can just edit the one you need, or add some locales. Baton engione will always&lt;/span&gt;
