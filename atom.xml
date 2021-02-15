@@ -8,9 +8,24 @@
     
       
       <item>
+        <title>Baton 2 is out</title>
+        
+          <description>&lt;p&gt;We’ve just released a new major version of django baton: &lt;strong&gt;2.0.0&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 15 Feb 2021 09:00:00 +0000</pubDate>
+        <link>
+        /baton-2.0.0</link>
+        <guid isPermaLink="true">/baton-2.0.0</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Baton new minor release 1.10.x</title>
         
-          <description>&lt;p&gt;We’ve just released a new minor version of django baton: &lt;strong&gt;2.10.1&lt;/strong&gt;&lt;/p&gt;
+          <description>&lt;p&gt;We’ve just released a new minor version of django baton: &lt;strong&gt;1.10.1&lt;/strong&gt;&lt;/p&gt;
 
 </description>
         

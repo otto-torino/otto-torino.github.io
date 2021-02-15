@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/author/abidibo/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2020-07-31T14:08:05+00:00</updated>
+  <updated>2021-02-15T14:00:01+00:00</updated>
   <id>/author/abidibo/feed.xml</id>
 
   
@@ -32,12 +32,147 @@
 
   
     <entry>
+      <title type="html">Baton 2 is out</title>
+      <link href="/baton-2.0.0" rel="alternate" type="text/html" title="Baton 2 is out" />
+      <published>2021-02-15T09:00:00+00:00</published>
+      <updated>2021-02-15T09:00:00+00:00</updated>
+      <id>/baton-2.0.0</id>
+      <content type="html" xml:base="/baton-2.0.0">&lt;p&gt;We’ve just released a new major version of django baton: &lt;strong&gt;2.0.0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Bootstrap 5 has come at the end of 2020, and Baton immediately adopted it in its feature branch v2. After testing it also in many production applications for a couple of months, we decided to release a new major version because it turned out to be very very stable.&lt;/p&gt;
+
+&lt;p&gt;With the introduction of bootstrap 5 we also changed the overall graphic style and the primary and secondary colors. Baton v2 follows a minimalistic approach, we got rid of many borders and backgrounds, resulting in a cleaner interface.&lt;/p&gt;
+
+&lt;p&gt;We also fixed some bugs, enhanced the developer tools and added some new interesting features.&lt;/p&gt;
+
+&lt;h2 id=&quot;login-splash&quot;&gt;Login splash&lt;/h2&gt;
+
+&lt;p&gt;In Baton v2 you can configure a login spash image path. Such image is used as a background which covers the whole viewport. It is centered in the available space.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;BATON&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'LOGIN_SPLASH'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'/static/core/img/login-splash.png'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;changelist-filters-include&quot;&gt;Changelist filters include&lt;/h2&gt;
+
+&lt;p&gt;We added the possibility to include custom templates in the changelist filter section, at the top or the bottom.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/baton-cl-filters-includes.png&quot; alt=&quot;django-baton changelist filters include&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@admin.register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;News&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;NewsAdmin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;admin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ModelAdmin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;#...&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;baton_cl_filters_includes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'news/admin_filters_include_top.html'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'top'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'news/admin_filters_include_bottom.html'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'bottom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;collapsable-user-area&quot;&gt;Collapsable user area&lt;/h2&gt;
+
+&lt;p&gt;If you need a more compact sidebar menu, you can use this option to collapse the user area (avatar and links).&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;BATON&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'COLLAPSABLE_USER_AREA'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;changelist-filters-form&quot;&gt;Changelist filters form&lt;/h2&gt;
+
+&lt;p&gt;With this option you can control the changeslist filters functionality. Django’s default functionality lets you filter one field at a time, every time you select a filter the page is suddendly reloaded applying the new filter. It means that if you want to apply many filters you’ll reload the page multiple times because you need to apply one filter at a time. With the new option introduced in Baton v2 you can change this behaviour: the changelist filter section behaves like a form. You can apply
+all the filters at one and finally click a “filter” button which applies them.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;BATON&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'CHANGELIST_FILTERS_FORM'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/filters-form.png&quot; alt=&quot;django-baton changelist filters form&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;javascript-translations&quot;&gt;Javascript translations&lt;/h2&gt;
+
+&lt;p&gt;In Baton v2 we made it easy to customize all javascript strings, useful in case you ned to provide you locale translations.
+It’s as simple as attaching an object containing your strings to the Baton namespace:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// these are the default translations, you can just edit the one you need, or add some locales. Baton engione will always&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// pick up your custom translation first, if it find them.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// you can define the object before Baton.init in the base_site template&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Baton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;translations&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;unsavedChangesAlert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'You have some unsaved changes.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;uploading&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Uploading...'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Filter'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Close'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Save'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;cannotCopyToClipboardMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Cannot copy to clipboard, please do it manually: Ctrl+C, Enter'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;retrieveDataError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'There was an error retrieving the data'&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;Baton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'baton-config'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;textContent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;messages-in-toasts&quot;&gt;Messages in toasts&lt;/h2&gt;
+
+&lt;p&gt;With this new option you can tell Baton to show all admin messages (or just some types) in bootstrap toasts.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;BATON&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'MESSAGES_TOASTS'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# True | ['success', 'warning', 'error']&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Setting it to &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; causes all messages to be displayed in toasts. Otherwise you can decide which type of messages to display this way, just set its value to an array containing the desired types (&lt;code class=&quot;highlighter-rouge&quot;&gt;success&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;warning&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;error&lt;/code&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/messages-toasts.png&quot; alt=&quot;django-baton messages toasts&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Baton 2.0.0 is a major release which brings Bootstrap 5 to the world of Django admin interfaces. It comes with some nice additions and new functionalities, a cleaner graphics and enhanced dev tools.&lt;/p&gt;
+
+&lt;p&gt;We like Baton’s new face a lot, we hope you’ll love it too!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>S. Contini</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Web Applications" />
+      
+        <category term="Baton" />
+      
+
+      
+        <summary type="html">We’ve just released a new major version of django baton: 2.0.0</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Baton new minor release 1.10.x</title>
       <link href="/baton-1.10.x" rel="alternate" type="text/html" title="Baton new minor release 1.10.x" />
       <published>2020-07-31T09:00:00+00:00</published>
       <updated>2020-07-31T09:00:00+00:00</updated>
       <id>/baton-1.10.x</id>
-      <content type="html" xml:base="/baton-1.10.x">&lt;p&gt;We’ve just released a new minor version of django baton: &lt;strong&gt;2.10.1&lt;/strong&gt;&lt;/p&gt;
+      <content type="html" xml:base="/baton-1.10.x">&lt;p&gt;We’ve just released a new minor version of django baton: &lt;strong&gt;1.10.1&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The new release introduces style changes in both the navbar and the sidebar menu. The resulting layout is more modern and cleaner for large screens, while stays the same for mobile devices.&lt;/p&gt;
 
@@ -116,7 +251,7 @@
       
 
       
-        <summary type="html">We’ve just released a new minor version of django baton: 2.10.1</summary>
+        <summary type="html">We’ve just released a new minor version of django baton: 1.10.1</summary>
       
 
       
